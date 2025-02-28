@@ -29,15 +29,16 @@ height: 80px;
     display: flex;
   
 }
+
 .child{
 
-    border-right: 5px solid black; 
+    border-right: 1px solid black; 
     flex: 120%;
 }
 .child img
 {
     height: 370px;   
-    border-right: 5px; 
+   
                        
     
 }
@@ -47,6 +48,42 @@ height: 80px;
     position: relative;
     left: 20px;    
 }
-
+.ancient
+{
+    height: 220px;
+    
+}
+.tajmahal
+{
+    height: 220px;
+}
+.maps
+{
+    height: 800px;
+    flex: 150%;
+}
+.news
+{
+    text-align: center;
+}
+.italy
+{
+    text-align: center;
+}
+.newproject
+{
+    justify-items: center;
+    height: 1100px;
+}
+.statue
+{
+    text-align: center;
+}
+.link10
+{
+    padding-left: 700px;
+    color: black;
+    text-decoration: none;
+}
 
 

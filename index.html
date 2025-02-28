@@ -62,7 +62,7 @@
 
             <div class="parent">
                 <div class="child">
-                <img class="img1" src="historical monument.jpg" alt=""> </div>
+                <img   class="img1" src="historical monument.jpg" alt=""  > </div>
                 <div class="container">
                   <div class="row">
                       <div class="col-12 text-center">
@@ -77,7 +77,7 @@
                   </div>
                   
                   <div class="row">
-                      <div class="col-12, child text-center">
+                      <div class="col-12, text-center">
                               <p>Global Digital Heritage (GDH) is a not-for-profit, private research and education organization 
                                 dedicated to documenting, monitoring, and preserving our global cultural and 
                                natural heritage.</p>
@@ -104,10 +104,11 @@
 
             <div class="container-fluid">
               <div class="row">
+
                   <div class="col-3">
                       <!-- Card Component with Image -->
                       <div class="card-title">
-                        <h2>Monument</h2>
+                        
                         <div class="card">
                           <img src="The-Colosseum italy.jpg" class="card-img-top" alt="The Colosseum, Italy">
                           <!-- Optional card body if you want to add text below the image -->
@@ -115,14 +116,85 @@
                       
                            
                           <div class="card-body">
-                              <p class="card-text"><br>
-                                The Colosseum has been the world’s largest amphitheater since 
-                                it was built more than 2,000 years ago. 
-                                When it was first opened in AD 80, this huge imposing structure measured 150 meters wide and 190 meters long,
-                                 with 80 arched entrances and capacity to seat up to 74,000 spectators.
-                                 <br>
+                              <h2 class="card-text">
+                                The Colosseum </h2>
+                                <p>
+                                   Located in Rome, Italy, the Colosseum is a medieval amphitheater primarily used for gladiatorial contests and theater. 
+                                   It was built in 75 BC and is the oldest surviving amphitheater. 
 
-                                 <a href="#" class="btn btn-primary">Learn More</a>
+                                </p>
+                                 
+
+                                <!-- Modal trigger button -->
+                                <button
+                                type="button"
+                                class="btn btn-success btn-lg"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalId1">
+
+                                Learn More
+                              </button>
+                              
+                                
+                                
+                                
+                                <!-- Modal Body -->
+                                <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                                <div
+                                  class="modal fade"
+                                  id="modalId1"
+                                  tabindex="-1"
+                                  data-bs-backdrop="static"
+                                  data-bs-keyboard="false"
+                                  
+                                  role="dialog"
+                                  aria-labelledby="modalTitleId"
+                                  aria-hidden="true"
+                                >
+                                  <div
+                                    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+                                    role="document"
+                                  >
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="modalTitleId">
+                                          The Colosseum-Rome
+                                        </h5>
+                                        <button
+                                          type="button"
+                                          class="btn-close"
+                                          data-bs-dismiss="modal"
+                                          aria-label="Close"
+                                        ></button>
+                                      </div>
+                                      <div class="modal-body">   The Colosseum has been the world’s largest amphitheater since 
+                                        it was built more than 2,000 years ago. 
+                                        When it was first opened in AD 80, this huge imposing structure measured 150 meters wide and 190 meters long,
+                                         with 80 arched entrances and capacity to seat up to 74,000 spectators.</div>
+                                      <div class="modal-footer">
+                                        <button
+                                          type="button"
+                                          class="btn btn-secondary"
+                                          data-bs-dismiss="modal"
+                                          aria-label="Close"
+                                          
+                                        >
+                                          Close
+                                        </button>
+                                        <button type="button" class="btn btn-primary">Save</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                <!-- Optional: Place to the bottom of scripts -->
+                                <script>
+                                   myModal = new bootstrap.Modal(
+                                    document.getElementById("modalId1"),
+                                    options,
+                                  );
+                                </script>
+                                
                                 </p>
                                   
                           </div>
@@ -131,20 +203,86 @@
                   <div class="col-3">
                       <!-- You can add more content in this section if needed -->
                        <div class="card-title">
-                        <h2>Palace</h2>
+                        
                         <div class="card">
                           <img src="Machu-Picchu.jpg" alt="">
                        </div>
                       
                         <div class="card-body">
-                          <p class="card-text">
-                            Situated at an altitude of about 2,500 meters above sea level, this ancient Inca 
-                            city in Peru boasts a breathtaking location in the midst of a tropical forest. 
-                            Built during the 15th century, Machu Picchu’s outstanding structures including 
-                            La Ciudadela throw light on the Inca Empire’s complex yet refined architecture.
-                            <br>
+                          <h2 class="card-text">
+                            Machu Picchu’s</h2>
+                            <p>
+                              Machu Picchu, often referred to as the "Lost City of the Incas," is one of the most famous archaeological sites 
+                              in the world. Located in the Andes Mountains in Peru, this ancient Incan city
+                               
+                            </p>
+                            
 
-                            <a href="#" class="btn btn-primary">Learn More</a>
+                           <!-- Modal trigger button -->
+                           <button
+                            type="button"
+                            class="btn btn-success btn-lg"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalId2"
+                           >
+                            Learn more
+                           </button>
+                           
+                           <!-- Modal Body -->
+                           <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                           <div
+                            class="modal fade"
+                            id="modalId2"
+                            tabindex="-1"
+                            data-bs-backdrop="static"
+                            data-bs-keyboard="false"
+                            
+                            role="dialog"
+                            aria-labelledby="modalTitleId"
+                            aria-hidden="true"
+                           >
+                            <div
+                              class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                              role="document"
+                            >
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="modalTitleId">
+                                    Machu Picchu’s-Peru
+                                  </h5>
+                                  <button
+                                    type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"
+                                  ></button>
+                                </div>
+                                <div class="modal-body"><p>   Situated at an altitude of about 2,500 meters above sea level, this ancient Inca 
+                                  city in Peru boasts a breathtaking location in the midst of a tropical forest. 
+                                  Built during the 15th century, Machu Picchu’s outstanding structures including 
+                                  La Ciudadela throw light on the Inca Empire’s complex yet refined architecture.</p></div>
+                                <div class="modal-footer">
+                                  <button
+                                    type="button"
+                                    class="btn btn-secondary"
+                                    data-bs-dismiss="modal"
+                                  >
+                                    Close
+                                  </button>
+                                  <button type="button" class="btn btn-primary">Save</button>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                           
+                           <!-- Optional: Place to the bottom of scripts -->
+                           <script>
+                            myModal2 = new bootstrap.Modal(
+                              document.getElementById("modalId2"),
+                              options,
+                            );
+                           </script>
+                           
                           </p>
                         </div>
                        </div>
@@ -152,37 +290,248 @@
                   <div class="col-3">
                     <!-- You can add more content in this section if needed -->
                      <div class="card-title">
-                      <h2>Greatest Ancient</h2>
+                      
                       <div class="card">
-                        <img src="download.jpeg" alt="">
+                        <img class="ancient" src="download.jpeg" alt="">
                      </div>
                     
                       <div class="card-body">
-                        <p class="card-text">
-                          Ancient Egypt is one of the world's most fascinating and influential civilizations, 
-                          with a history spanning over 3,000 years. From the early 
-                          dynasties to the final conquest by Alexander the Great,
-                          The unification of Upper and Lower Egypt is attributed to 
-                          King Narmer (also known as Menes), 
-                          who is considered the first pharaoh. This marks the beginning 
-                          of Egypt's dynastic period.
-                          <br>
-    
-                          <a href="#" class="btn btn-primary">Learn More</a>
+                        <h2 class="card-text">
+                          Greatest Ancient </h2>
+                          
+                          <p>The Old Kingdom (c. 2686–2181 BCE): Known as the "Age of the Pyramids," 
+                            this period saw the construction of the Great Pyramid of Giza and the 
+                            Sphinx under the pharaoh Khufu.  </p>
+                            
+                          
+                          <!-- Modal trigger button -->
+                          <button
+                            type="button"
+                            class="btn btn-success btn-lg"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalId3"
+                          >
+                            Learn more
+                          </button>
+                          
+                          <!-- Modal Body -->
+                          <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                          <div
+                            class="modal fade"
+                            id="modalId3"
+                            tabindex="-1"
+                            data-bs-backdrop="static"
+                            data-bs-keyboard="false"
+                            
+                            role="dialog"
+                            aria-labelledby="modalTitleId"
+                            aria-hidden="true"
+                          >
+                            <div
+                              class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                              role="document"
+                            >
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="modalTitleId">
+                                    Great Ancient-EGypt
+                                  </h5>
+                                  <button
+                                    type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"
+                                  ></button>
+                                </div>
+                                <div class="modal-body"><p> Ancient Egypt is one of the world's most fascinating and influential civilizations, 
+                                  with a history spanning over 3,000 years. From the early 
+                                  dynasties to the final conquest by Alexander the Great,
+                                  The unification of Upper and Lower Egypt is attributed to 
+                                  King Narmer (also known as Menes), 
+                                  who is considered the first pharaoh. This marks the beginning 
+                                  of Egypt's dynastic period.</p></div>
+                                <div class="modal-footer">
+                                  <button
+                                    type="button"
+                                    class="btn btn-secondary"
+                                    data-bs-dismiss="modal"
+                                  >
+                                    Close
+                                  </button>
+                                  <button type="button" class="btn btn-primary">Save</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <!-- Optional: Place to the bottom of scripts -->
+                          <script>
+                             myModal = new bootstrap.Modal(
+                              document.getElementById("modalId3"),
+                              options,
+                            );
+                          </script>
+                          
+                           
+                           
                         </p>
                       </div>
                      </div>
-                </div>        
+                     
+                </div> 
+                <div class="col-3">
+                  <!-- Card Component with Image -->
+                  <div class="card-title">
+                    
+                    <div class="card">
+                      <img src="taj mahal.jpeg" class="card-img-top tajmahal" alt="">
+                      <!-- Optional card body if you want to add text below the image -->
+                  </div>
+                  
+                       
+                      <div class="card-body">
+                          <h2 class="card-text">
+                         Taj Mahal </h2>
+                         
+                        <p>
+                           The Taj Mahal is one of the most iconic landmarks in the world, 
+                           located in Agra, India. It was built by the Mughal Emperor Shah 
+                           Jahan in memory of his beloved wife Mumtaz Mahal. </p>
+
+                           
+                         
+                             
+
+                            <!-- Modal trigger button -->
+                            <button
+                            type="button"
+                            class="btn btn-success btn-lg"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalId4">
+
+                            Learn More
+                          </button>
+                          
+                            
+                            
+                            
+                            <!-- Modal Body -->
+                            <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                            <div
+                              class="modal fade"
+                              id="modalId4"
+                              tabindex="-1"
+                              data-bs-backdrop="static"
+                              data-bs-keyboard="false"
+                              
+                              role="dialog"
+                              aria-labelledby="modalTitleId"
+                              aria-hidden="true"
+                            >
+                              <div
+                                class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+                                role="document"
+                              >
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="modalTitleId">
+                                      TAJ MAHAL-INDIA
+                                 
+                                    </h5>
+                                    <button
+                                      type="button"
+                                      class="btn-close"
+                                      data-bs-dismiss="modal"
+                                      aria-label="Close"
+                                    ></button>
+                                  </div>
+                                  <div class="modal-body">   Construction of the Taj Mahal began in 1632, and it was completed in 1653, 
+                                                            taking around 21 years. The monument is renowned for its stunning white
+                                     marble architecture, intricate carvings, and beautiful gardens. It is a symbol of love and a
+                                     masterpiece of Mughal architecture, blending Persian, Ottoman Turkish, and Indian 
+                                     architectural styles. The Taj Mahal is listed as a UNESCO World Heritage site and is visited by millions of tourists every year. 
+                                     Its striking beauty and historical significance make it one of 
+                                     the Seven Wonders of the World. The Dome and Minarets: The central dome 
+                                     of the Taj Mahal is 35 meters high and is surrounded by four minarets 
+                                     (tall towers) which enhance its symmetry. The dome’s design represents 
+                                     the perfection and infinity of the divine. The minarets were constructed with a 
+                                     slight tilt to ensure they would never fall on the main structure 
+                                     in case of an earthquake.</div>
+                                  <div class="modal-footer">
+                                    <button
+                                      type="button"
+                                      class="btn btn-secondary"
+                                      data-bs-dismiss="modal"
+                                      aria-label="Close"
+                                      
+                                    >
+                                      Close
+                                    </button>
+                                    <button type="button" class="btn btn-primary">Save</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <!-- Optional: Place to the bottom of scripts -->
+                            <script>
+                               myModal = new bootstrap.Modal(
+                                document.getElementById("modalId4"),
+                                options,
+                              );
+                            </script>
+                            
+                            </p>
+                              
+                      </div>
+                  </div>
+              </div> 
               </div>
                      
-        </div>
-    
-               
-              
+        </div> 
+          
           </div>
+          <hr>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12">
+                <img class="maps" src="map.jpeg" alt="">
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 Lg Sm M">
+              <p class="news">RECENT NEWS | 18.01.2025</p>
+              <br>
+              <h1 class="italy">New project in Tuscany, Italy</h1>
+              <br>
+              <img class="newproject" src="italyy.jpg" alt="">
+              <br>
+              <br>
+
+              <p class="statue">
+                GDH starts 2025 with a new project in Italy. We have started a brand new 
+                collaboration with the Museo Archeologico e d’Arte della Maremma in 
+                Grosseto, province of Siena. A team of six GDH members has worked for 
+                a week at the museum to scan archaeological artifacts 
+                from the ancient city of Rusellae, near Grosseto. […]
+              </p>
+              <br>
+              <a class="link10" href="">Read More</a>
+              </div>
+            </div>
+          </div>
+          <br>
+       
+          
           
     <div class="container text-center mt-5">
-        <div class="card shadow-lg p-4">
+        <div class="card shadow-lg p-4 ">
             <h1 class="card-title">Visitor Count</h1>
             <h2 id="visitorCount" class="display-4">0</h2>
             <p class="lead">You are visitor number</p>
