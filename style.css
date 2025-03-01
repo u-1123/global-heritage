@@ -55,7 +55,7 @@ height: 80px;
 }
 .tajmahal
 {
-    height: 220px;
+height: 220px;
 }
 .maps
 {
@@ -85,5 +85,64 @@ height: 80px;
     color: black;
     text-decoration: none;
 }
+.anchor1
+{
+    padding-left: 50px;
+}
+.drone
+{
+    padding-left: 100px;
+    height: 300px;
+    
+}
+.team
+{
+    width: 80%;
+    padding-left: 100px;
+    height: 300px;
+}
+.discover{
+    text-decoration: none;
+    color: black;
+    padding-left: 100px;
+    font-size: large;
+}
+.discover:hover
+    {
+      color: greenyellow;
+      
+    }
+    .meet{
+        text-decoration: none;
+        color: black;
+        padding-left: 100px;
+        font-size: large;
+    }
+    .meet:hover
+        {
+          color: greenyellow;
+          
+        }
+.footer
+{
+    
+    height: 300px;
+    width: 200%;
+    background-color: black;
+}
+.base
+{ 
+    padding-top: 20px;
+    color: white;
+}
+.Global
+{
+    color: white;
+}
+.descarga
+{
+    height: 80px;
+    padding-left: 150px;
 
-
+}
+    
