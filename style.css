@@ -6,7 +6,7 @@ height: 80px;
 {
     background-image: url(IMG_3407-1536x1152.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 100%;
 }
 .link1 a
 {
@@ -93,6 +93,8 @@ height: 220px;
 {
     padding-left: 100px;
     height: 300px;
+     width: 80%; 
+      border-radius: 10px;
     
 }
 .team
@@ -100,27 +102,28 @@ height: 220px;
     width: 80%;
     padding-left: 100px;
     height: 300px;
+     border-radius: 10px;
 }
 .discover{
     text-decoration: none;
     color: black;
-    padding-left: 100px;
+    padding-left: 50px;
     font-size: large;
 }
 .discover:hover
     {
-      color: greenyellow;
+      color: gray;
       
     }
     .meet{
         text-decoration: none;
         color: black;
-        padding-left: 100px;
+        padding-left: 50px;
         font-size: large;
     }
     .meet:hover
         {
-          color: greenyellow;
+          color: gray;
           
         }
 .footer
